@@ -5,14 +5,8 @@ import math
 # The prime factors of 13195 are 5, 7, 13 and 29.
 # What is the largest prime factor of the number 600851475143 ?
 
-# To solve, we need a function that allows us to check to see if a number is prime, and a way to rank all prime factors
-# of a given parameter so that we can identify the largest one
-
-# pseudocode (implement recursively):
-# Start with a given number; divide the number by itself; if this number is prime, stop.
-# Else, decrement the number by 1; take original % new; if == 0, check to see if new is prime.
-# If new is prime, stop;
-# Else, keep going; check each time to see if # is prime.
+# To solve, we need a function that allows us to check to see if a number is prime, and a way to append each new prime factor
+# to a list; the last one we discover (iterating up) will be the largest. 
 
 def isPrime(number):
     base = 2

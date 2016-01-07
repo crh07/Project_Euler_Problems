@@ -17,6 +17,10 @@ def palindrome(num):
         if nums[0] == nums[1]:
             print("true")
             return True
+            
+        else:
+            print("false")
+            return False
 
     else:
         if nums[0] == nums[len(nums) - 1]:

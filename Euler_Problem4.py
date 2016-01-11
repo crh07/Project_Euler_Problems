@@ -37,3 +37,25 @@ mylist = [90109, 0, 401, 33, 696, 100, 2442, 35653, 190]
 for x in mylist:
     print(x)
     palindrome(x)
+
+
+#Doesn't work yet. Appending to templist is not working properly 
+
+def findLargestPal(start):
+    templist = []
+    for i in range(start, 99, -1):
+        for j in range(start, 99, -1):
+            temp = i * j
+            # print(i , j)
+            #print(temp)
+            if palindrome(temp):
+                print(temp)
+                #templist.append(temp)
+                #print(templist)
+                return temp
+       # break
+
+
+newlist = []
+out = findLargestPal(999)
+

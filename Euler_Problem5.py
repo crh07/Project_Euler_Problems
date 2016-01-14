@@ -14,7 +14,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 print(5*7*8*6)
 
 
-#Thought process: build a recursive function where if the number is prime, it gets included, and all other unique #s get included
+#primes
 
 
 #Borrowed from my solution to Project Euler #3:

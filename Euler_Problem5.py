@@ -9,9 +9,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 #Primes= 7, 5, 3, 2
 
 
-# 2520 = 5*7*(2*4)*(2*3) = 5*7*8*6
-
-print(5*7*8*6)
+print(2*3*5*7*4*3) #2520
 
 
 #primes

@@ -24,3 +24,25 @@ def isPrime(number):
         elif (number % base != 0):
             base += 1
     return True
+    
+    
+
+def smallestMultiple(start, stop):
+    primelist = []
+    nonprime=[]
+    product = 1
+    for x in range(start, stop):
+        if isPrime(x):
+            primelist.append(x)
+        else:
+            nonprime.append(x)
+
+    for i in range(1, len(primelist)):
+        product = product*primelist[i]
+        print(primelist[i], product)
+        print(product)
+
+    return product
+
+#Reverse engineer first answer first
+mylist = smallestMultiple(1,10)

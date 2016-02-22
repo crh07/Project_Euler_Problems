@@ -3,7 +3,7 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 # ------------------#
-# Define functions #
+# Define functions  #
 # -----------------_#
 
 #palindrome returns TRUE if the parameter is a palindrome and FALSE if it is not

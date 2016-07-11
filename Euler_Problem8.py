@@ -16,7 +16,7 @@ def maxProduct(inputArray, lowIndex, highIndex, maxSoFar):
     while(highIndex < len(inputArray)):
         product= 1
         for i in range(lowIndex, highIndex+1):
-            print(product)
+           # print(product) for testing if needed
             product *= float(inputArray[i])
 
         if(product > maxSoFar):
